@@ -1,0 +1,5 @@
+ls=list(map(int,input().split()))
+out=max(ls)
+ls.remove(out)
+out2=max(ls)
+print(out2)
